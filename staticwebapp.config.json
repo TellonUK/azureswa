@@ -1,0 +1,25 @@
+{
+  "routes": [
+    {
+      "route": "/api/*",
+      "allowedRoles": ["authenticated"]
+    }
+  ],
+  "auth": {
+    "identityProviders": {
+      "openIdConnectProviders": {
+        "azureb2c": {
+          "registration": {
+            "clientIdSettingName": "[AUTH_CLIENTID]",
+            "clientCredential": {
+              "secretSettingName": "[AUTH_SECRET]"
+            },
+            "openIdConnectConfiguration": {
+              "wellKnownOpenIdConfiguration": "[WELL-KNOWN]"
+            }
+          }
+        }
+      }
+    }
+  }
+}
