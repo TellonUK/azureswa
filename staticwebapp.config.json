@@ -11,7 +11,7 @@
         "azureb2c": {
           "registration": {
             "clientIdSettingName": "SWACLIENTID",
-            "clientCredential":{
+            "clientCredential": {
               "secretSettingName": "SWASECRET"
             },
             "openIdConnectConfiguration": {
