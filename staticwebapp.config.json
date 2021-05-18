@@ -10,12 +10,12 @@
       "openIdConnectProviders": {
         "azureb2c": {
           "registration": {
-            "clientIdSettingName": "<SWACLIENTID>",
+            "clientIdSettingName": "SWACLIENTID",
             "clientCredential": {
-              "secretSettingName": "<SWASECRET>"
+              "secretSettingName": "SWASECRET"
             },
             "openIdConnectConfiguration": {
-              "wellKnownOpenIdConfiguration": "<SWAWELLKNOWN>"
+              "wellKnownOpenIdConfiguration": "https://glmtesting.b2clogin.com/glmtesting.onmicrosoft.com/v2.0/.well-known/openid-configuration?p=B2C_1_authSignIn"
             }
           }
         }
