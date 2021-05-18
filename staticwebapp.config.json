@@ -7,7 +7,7 @@
   ],
   "auth": {
     "identityProviders": {
-      "openIdConnectProviders": {
+      "customOpenIdConnectProviders": {
         "azureb2c": {
           "registration": {
             "clientIdSettingName": "SWACLIENTID",
