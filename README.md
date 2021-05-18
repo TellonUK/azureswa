@@ -1,4 +1,4 @@
-# NextJS Typescript Boilerplate
+# NextJS Typescript Boilerplate-
 
 Bootstrap a developer-friendly NextJS app configured with:
 
