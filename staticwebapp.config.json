@@ -10,12 +10,12 @@
       "openIdConnectProviders": {
         "azureb2c": {
           "registration": {
-            "clientIdSettingName": "[AUTH_CLIENTID]",
+            "clientIdSettingName": "<SWACLIENTID>",
             "clientCredential": {
-              "secretSettingName": "[AUTH_SECRET]"
+              "secretSettingName": "<SWASECRET>"
             },
             "openIdConnectConfiguration": {
-              "wellKnownOpenIdConfiguration": "[WELL-KNOWN]"
+              "wellKnownOpenIdConfiguration": "<SWAWELLKNOWN>"
             }
           }
         }
