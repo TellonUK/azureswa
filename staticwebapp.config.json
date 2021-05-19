@@ -19,9 +19,7 @@
             }
           },
           "login": {
-            "nameClaimType": "name",
-            "scope": ["openid"],
-            "loginParameterNames": []
+            "scopes": ["openid offline_access"]
           }
         }
       }
