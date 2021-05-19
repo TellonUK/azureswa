@@ -8,7 +8,7 @@
   "auth": {
     "identityProviders": {
       "customOpenIdConnectProviders": {
-        "myProvider": {
+        "azureb2c": {
           "registration": {
             "clientIdSettingName": "SWACLIENTID",
             "clientCredential": {
