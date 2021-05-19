@@ -20,7 +20,7 @@
           },
            "login": {
             "nameClaimType": "name",
-            "scope": [],
+            "scope": ["openid"],
             "loginParameterNames": []
           }
         }
