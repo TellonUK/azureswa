@@ -19,7 +19,7 @@
             }
           },
           "login": {
-            "scopes": ["openid offline_access"]
+            "scope": ["openid offline_access"]
           }
         }
       }
